@@ -38,7 +38,7 @@ public class LoginTest extends SeWrappers{
 		{
 			Reports.setTCDesc("Valid login functionality with invalid username");
 			launchBrowser("https://profile.w3schools.com/");
-			w3.loginW3Schools("bv.suganeshvaratharajan16@gmail.com","KDsuganesh@16");
+			w3.loginW3Schools("suganeshvaratharajan16@gmail.com","KDsuganesh@16");
 			/*
 			 * write the assertion code to validate for invalid email
 			 */
